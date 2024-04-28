@@ -1,0 +1,15 @@
+{
+    "name": "xoesae/inpi",
+    "autoload": {
+        "psr-4": {
+            "Inpi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-xmlreader": "*",
+        "ext-dom": "*",
+        "ext-simplexml": "*",
+        "ext-zip": "*"
+    }
+}
